@@ -122,7 +122,7 @@ $(document).ready(function () {
 
     setupDynamicDiv(['recursiveScanning', 'scanDepth'], 'recursiveScanning-target', (v) => {
         if ($('#recursiveScanning').is(':checked')) {
-            return `<strong>Looping scan:</strong> Lorebook will scan the <strong>last ${v.scanDepth} messages</strong> and re-scan until triggers stop or token budget is hit.`;
+            return `<strong>Looping scan:</strong> Lorebook will scan the <strong>last ${v.scanDepth} messages</strong> then scan triggered entries and keep re-scanning appearing entries until triggering stops or token budget is hit.`;
         } else {
             return `<strong>Chat-only scan:</strong> Lorebook will only scan the <strong>last ${v.scanDepth} messages</strong> of chat for keywords.`;
         }
