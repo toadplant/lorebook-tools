@@ -1,12 +1,13 @@
 # Lorebook Playground and Interactive guide
 
-[![open](media\open.png)](https://toadplant.github.io/lorebook-tools/)
+[![Lorebook Tools](media/open.png)](https://toadplant.github.io/lorebook-tools/)
 
-[![open](media\w_site.png)](https://toadplant.github.io/lorebook-tools/) [![discord](media\w_discord.png)](https://discord.gg/mdrRcyQuQH) [![open](media\w_reddit.png)](https://www.reddit.com/r/WyvernChat/)
+[![Website](media/w_site.png)](https://toadplant.github.io/lorebook-tools/) 
+[![Discord](media/w_discord.png)](https://discord.gg/mdrRcyQuQH) 
+[![Reddit](media/w_reddit.png)](https://www.reddit.com/r/WyvernChat/)
 
-
-[![open](media\my_wyvern.png)](https://app.wyvern.chat/profiles/GV48cZZcDmNMT1tJJJu8Ampin4u1) [![open](media\my_discord.png)](https://discord.gg/YUXTPAuJxc) 
-
+[![My Wyvern](media/my_wyvern.png)](https://app.wyvern.chat/profiles/GV48cZZcDmNMT1tJJJu8Ampin4u1) 
+[![My Discord](media/my_discord.png)](https://discord.gg/YUXTPAuJxc)
 
 # 🧩 Basics
 
@@ -32,7 +33,7 @@ Keys have partial match type, meaning a key **"cat"** will defaultly react to w
     
 Tokens are the smallest bits of text AI uses to process and understand language. If people use letters and words, AI uses tokens. 1 token might be a word or a fragment. On average, 1 token is 3.7 symbols, but this varies by model. LLaMA, Mistral, DeepSeek, and GPT each tokenize differently.
     
-See it yourself on 🔗 [Huggingface tokenizer playground](https://www.notion.so/%5B%3Chttps://huggingface.co/spaces/Xenova/the-tokenizer-playground%3E%5D(%3Chttps://huggingface.co/spaces/Xenova/the-tokenizer-playground%3E))
+See it yourself on 🔗 [Huggingface tokenizer playground](https://huggingface.co/spaces/Xenova/the-tokenizer-playground))
     
 **How does memory of chat work?**
     
@@ -42,7 +43,7 @@ When you chat with an AI bot, the chat interface merges your last message with a
     
 The closer a piece of information is to the bottom of this structure, the more impact it has.
 
-[![a](media\contetext_window.png)]()
+[![context](media/contetext_window.png)]()
 
 # ✍ What can you put in entries? Examples & recommended settings
 
